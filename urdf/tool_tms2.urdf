@@ -1,0 +1,149 @@
+<robot
+  name="tool_tms2">
+  <link
+    name="flange_link">
+    <inertial>
+      <origin
+        xyz="-2.7886E-05 -0.00014096 0.010059"
+        rpy="0 0 0" />
+      <mass
+        value="0.1483" />
+      <inertia
+        ixx="6.5965E-06"
+        ixy="1.8314E-07"
+        ixz="1.3017E-08"
+        iyy="7.486E-06"
+        iyz="6.5797E-08"
+        izz="6.7095E-06" />
+    </inertial>
+    <visual>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://tool_tms2/meshes/flange_link.STL" />
+      </geometry>
+      <material
+        name="">
+        <color
+          rgba="0 1 0 1" />
+      </material>
+    </visual>
+    <collision>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://tool_tms2/meshes/flange_link.STL" />
+      </geometry>
+    </collision>
+  </link>
+  <link
+    name="force_Link">
+    <inertial>
+      <origin
+        xyz="0.0074099 0.0014123 -0.0020129"
+        rpy="0 0 0" />
+      <mass
+        value="0.071157" />
+      <inertia
+        ixx="3.1053E-06"
+        ixy="-4.0417E-06"
+        ixz="-2.6779E-06"
+        iyy="2.36E-05"
+        iyz="-5.6239E-07"
+        izz="2.2862E-05" />
+    </inertial>
+    <visual>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://tool_tms2/meshes/force_Link.STL" />
+      </geometry>
+      <material
+        name="">
+        <color
+          rgba="0 0 1 1" />
+      </material>
+    </visual>
+    <collision>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://tool_tms2/meshes/force_Link.STL" />
+      </geometry>
+    </collision>
+  </link>
+  <joint
+    name="flange"
+    type="fixed">
+    <origin
+      xyz="0 -0.034 0"
+      rpy="1.5708 -1.5043 3.1416" />
+    <parent
+      link="flange_link" />
+    <child
+      link="force_Link" />
+    <axis
+      xyz="0 0 0" />
+  </joint>
+  <link
+    name="tms_Link">
+    <inertial>
+      <origin
+        xyz="-1.0713E-10 0.0095121 -0.063036"
+        rpy="0 0 0" />
+      <mass
+        value="0.27445" />
+      <inertia
+        ixx="0.001356"
+        ixy="-2.0876E-10"
+        ixz="1.8499E-12"
+        iyy="0.0013498"
+        iyz="-2.0995E-07"
+        izz="7.4545E-06" />
+    </inertial>
+    <visual>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://tool_tms2/meshes/tms_Link.STL" />
+      </geometry>
+      <material
+        name="">
+        <color
+          rgba="1 0 0 1" />
+      </material>
+    </visual>
+    <collision>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://tool_tms2/meshes/tms_Link.STL" />
+      </geometry>
+    </collision>
+  </link>
+  <joint
+    name="force_tms"
+    type="fixed">
+    <origin
+      xyz="0 0 -0.0221"
+      rpy="-1.5708 -5.9611E-17 -3.0556" />
+    <parent
+      link="force_Link" />
+    <child
+      link="tms_Link" />
+    <axis
+      xyz="0 0 0" />
+  </joint>
+</robot>

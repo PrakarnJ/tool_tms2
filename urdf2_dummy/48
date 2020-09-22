@@ -1,0 +1,168 @@
+[rospy.client][INFO] 2019-11-16 15:12:24,902: init_node, name[/hsrb_interface_py_10083_1573891944805], pid[10083]
+[xmlrpc][INFO] 2019-11-16 15:12:24,902: XML-RPC server binding to 0.0.0.0:0
+[xmlrpc][INFO] 2019-11-16 15:12:24,903: Started XML-RPC server [http://192.168.0.105:35143/]
+[rospy.init][INFO] 2019-11-16 15:12:24,903: ROS Slave URI: [http://192.168.0.105:35143/]
+[rospy.impl.masterslave][INFO] 2019-11-16 15:12:24,903: _ready: http://192.168.0.105:35143/
+[rospy.registration][INFO] 2019-11-16 15:12:24,903: Registering with master node http://hsrb.local:11311
+[xmlrpc][INFO] 2019-11-16 15:12:24,903: xml rpc node: starting XML-RPC server
+[rospy.init][INFO] 2019-11-16 15:12:25,003: registered with master
+[rospy.rosout][INFO] 2019-11-16 15:12:25,004: initializing /rosout core topic
+[rospy.rosout][INFO] 2019-11-16 15:12:25,013: connected to core topic /rosout
+[rospy.simtime][INFO] 2019-11-16 15:12:25,021: /use_sim_time is not set, will not subscribe to simulated time [/clock] topic
+[rospy.internal][INFO] 2019-11-16 15:12:25,138: topic[/tf_static] adding connection to [http://192.168.0.104:42554/], count 0
+[rospy.internal][INFO] 2019-11-16 15:12:25,141: topic[/tf_static] adding connection to [http://192.168.0.104:32819/], count 0
+[rospy.internal][INFO] 2019-11-16 15:12:25,144: topic[/tf_static] adding connection to [http://192.168.0.104:41002/], count 0
+[rospy.internal][INFO] 2019-11-16 15:12:25,146: topic[/tf] adding connection to [http://192.168.0.104:43012/], count 0
+[rospy.internal][INFO] 2019-11-16 15:12:25,147: topic[/tf] adding connection to [http://192.168.0.104:41002/], count 0
+[rospy.internal][INFO] 2019-11-16 15:12:25,147: topic[/tf] adding connection to [http://192.168.0.104:35914/], count 0
+[rospy.internal][INFO] 2019-11-16 15:12:25,149: topic[/tf] adding connection to [http://192.168.0.104:44376/], count 0
+[rospy.internal][INFO] 2019-11-16 15:12:25,152: topic[/tf] adding connection to [http://192.168.0.104:38636/], count 0
+[rospy.internal][INFO] 2019-11-16 15:12:25,153: topic[/tf] adding connection to [http://192.168.0.104:35762/], count 0
+[rospy.internal][INFO] 2019-11-16 15:12:25,161: topic[/tf] adding connection to [http://192.168.0.104:40611/], count 6
+[rospy.internal][INFO] 2019-11-16 15:12:25,198: topic[/move_base/move/status] adding connection to [http://192.168.0.104:43491/], count 0
+[rospy.internal][INFO] 2019-11-16 15:12:25,215: topic[/move_base/move/result] adding connection to [http://192.168.0.104:43491/], count 0
+[rospy.internal][INFO] 2019-11-16 15:12:25,215: topic[/move_base/move/feedback] adding connection to [http://192.168.0.104:43491/], count 0
+[rospy.internal][INFO] 2019-11-16 15:12:25,323: topic[/move_base/move/goal] adding connection to [/move_base], count 0
+[rospy.internal][INFO] 2019-11-16 15:12:25,324: topic[/move_base/move/cancel] adding connection to [/move_base], count 0
+[rospy.internal][INFO] 2019-11-16 15:12:25,434: topic[/hsrb/omni_base_controller/follow_joint_trajectory/status] adding connection to [http://192.168.0.104:43012/], count 0
+[rospy.internal][INFO] 2019-11-16 15:12:25,435: topic[/hsrb/omni_base_controller/follow_joint_trajectory/result] adding connection to [http://192.168.0.104:43012/], count 0
+[rospy.internal][INFO] 2019-11-16 15:12:25,435: topic[/hsrb/omni_base_controller/follow_joint_trajectory/feedback] adding connection to [http://192.168.0.104:43012/], count 0
+[rospy.internal][INFO] 2019-11-16 15:12:25,647: topic[/hsrb/omni_base_controller/follow_joint_trajectory/cancel] adding connection to [/hsrb/robot_hardware], count 0
+[rospy.internal][INFO] 2019-11-16 15:12:25,648: topic[/hsrb/omni_base_controller/follow_joint_trajectory/goal] adding connection to [/hsrb/robot_hardware], count 0
+[rospy.internal][INFO] 2019-11-16 15:12:25,764: topic[/hsrb/arm_trajectory_controller/follow_joint_trajectory/status] adding connection to [http://192.168.0.104:43012/], count 0
+[rospy.internal][INFO] 2019-11-16 15:12:25,781: topic[/hsrb/arm_trajectory_controller/follow_joint_trajectory/feedback] adding connection to [http://192.168.0.104:43012/], count 0
+[rospy.internal][INFO] 2019-11-16 15:12:25,781: topic[/hsrb/arm_trajectory_controller/follow_joint_trajectory/result] adding connection to [http://192.168.0.104:43012/], count 0
+[rospy.internal][INFO] 2019-11-16 15:12:25,889: topic[/hsrb/arm_trajectory_controller/follow_joint_trajectory/cancel] adding connection to [/hsrb/robot_hardware], count 0
+[rospy.internal][INFO] 2019-11-16 15:12:25,890: topic[/hsrb/arm_trajectory_controller/follow_joint_trajectory/goal] adding connection to [/hsrb/robot_hardware], count 0
+[rospy.internal][INFO] 2019-11-16 15:12:25,998: topic[/hsrb/head_trajectory_controller/follow_joint_trajectory/result] adding connection to [http://192.168.0.104:43012/], count 0
+[rospy.internal][INFO] 2019-11-16 15:12:25,999: topic[/hsrb/head_trajectory_controller/follow_joint_trajectory/feedback] adding connection to [http://192.168.0.104:43012/], count 0
+[rospy.internal][INFO] 2019-11-16 15:12:25,999: topic[/hsrb/head_trajectory_controller/follow_joint_trajectory/status] adding connection to [http://192.168.0.104:43012/], count 0
+[rospy.internal][INFO] 2019-11-16 15:12:26,111: topic[/hsrb/head_trajectory_controller/follow_joint_trajectory/goal] adding connection to [/hsrb/robot_hardware], count 0
+[rospy.internal][INFO] 2019-11-16 15:12:26,112: topic[/hsrb/head_trajectory_controller/follow_joint_trajectory/cancel] adding connection to [/hsrb/robot_hardware], count 0
+[rospy.internal][INFO] 2019-11-16 15:12:26,218: topic[/hsrb/gripper_controller/follow_joint_trajectory/result] adding connection to [http://192.168.0.104:43012/], count 0
+[rospy.internal][INFO] 2019-11-16 15:12:26,220: topic[/hsrb/gripper_controller/follow_joint_trajectory/status] adding connection to [http://192.168.0.104:43012/], count 0
+[rospy.internal][INFO] 2019-11-16 15:12:26,221: topic[/hsrb/gripper_controller/follow_joint_trajectory/feedback] adding connection to [http://192.168.0.104:43012/], count 0
+[rospy.internal][INFO] 2019-11-16 15:12:26,351: topic[/hsrb/gripper_controller/follow_joint_trajectory/goal] adding connection to [/hsrb/robot_hardware], count 0
+[rospy.internal][INFO] 2019-11-16 15:12:26,456: topic[/hsrb/gripper_controller/follow_joint_trajectory/cancel] adding connection to [/hsrb/robot_hardware], count 0
+[rospy.internal][INFO] 2019-11-16 15:12:26,586: topic[/hsrb/impedance_control/follow_joint_trajectory/feedback] adding connection to [http://192.168.0.104:44377/], count 0
+[rospy.internal][INFO] 2019-11-16 15:12:26,591: topic[/hsrb/impedance_control/follow_joint_trajectory/result] adding connection to [http://192.168.0.104:44377/], count 0
+[rospy.internal][INFO] 2019-11-16 15:12:26,592: topic[/hsrb/impedance_control/follow_joint_trajectory/status] adding connection to [http://192.168.0.104:44377/], count 0
+[rospy.internal][INFO] 2019-11-16 15:12:26,706: topic[/hsrb/impedance_control/follow_joint_trajectory/goal] adding connection to [/hsrb/impedance_control], count 0
+[rospy.internal][INFO] 2019-11-16 15:12:26,707: topic[/hsrb/impedance_control/follow_joint_trajectory/cancel] adding connection to [/hsrb/impedance_control], count 0
+[rospy.internal][INFO] 2019-11-16 15:12:26,752: topic[/hsrb/joint_states] adding connection to [http://192.168.0.104:43012/], count 0
+[rospy.internal][INFO] 2019-11-16 15:12:26,975: topic[/hsrb/gripper_controller/grasp/result] adding connection to [http://192.168.0.104:43012/], count 0
+[rospy.internal][INFO] 2019-11-16 15:12:26,976: topic[/hsrb/gripper_controller/grasp/status] adding connection to [http://192.168.0.104:43012/], count 0
+[rospy.internal][INFO] 2019-11-16 15:12:26,976: topic[/hsrb/gripper_controller/grasp/feedback] adding connection to [http://192.168.0.104:43012/], count 0
+[rospy.internal][INFO] 2019-11-16 15:12:27,053: topic[/hsrb/gripper_controller/apply_force/result] adding connection to [http://192.168.0.104:43012/], count 0
+[rospy.internal][INFO] 2019-11-16 15:12:27,056: topic[/hsrb/gripper_controller/apply_force/feedback] adding connection to [http://192.168.0.104:43012/], count 0
+[rospy.internal][INFO] 2019-11-16 15:12:27,058: topic[/hsrb/gripper_controller/apply_force/status] adding connection to [http://192.168.0.104:43012/], count 0
+[rospy.internal][INFO] 2019-11-16 15:12:27,114: topic[/sound_hsrb] adding connection to [http://192.168.0.105:46405/], count 0
+[rospy.internal][INFO] 2019-11-16 15:12:27,166: topic[/hsrb/gripper_controller/grasp/goal] adding connection to [/hsrb/robot_hardware], count 0
+[rospy.internal][INFO] 2019-11-16 15:12:27,167: topic[/hsrb/gripper_controller/grasp/cancel] adding connection to [/hsrb/robot_hardware], count 0
+[rospy.internal][INFO] 2019-11-16 15:12:27,204: topic[/talk_request] adding connection to [/text_to_speech], count 0
+[rospy.internal][INFO] 2019-11-16 15:12:27,273: topic[/hsrb/gripper_controller/apply_force/cancel] adding connection to [/hsrb/robot_hardware], count 0
+[rospy.internal][INFO] 2019-11-16 15:12:27,275: topic[/hsrb/gripper_controller/apply_force/goal] adding connection to [/hsrb/robot_hardware], count 0
+[rospy.internal][ERROR] 2019-11-16 15:18:55,843: Unable to initiate TCP/IP socket to 192.168.0.105:42205 (http://192.168.0.105:46405/): Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 557, in connect
+    self.read_header()
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 650, in read_header
+    self._validate_header(read_ros_handshake_header(sock, self.read_buff, self.protocol.buff_size))
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 593, in _validate_header
+    raise TransportInitError("remote error reported: %s"%header['error'])
+TransportInitError: remote error reported: node shutting down
+
+[rospy.internal][WARNING] 2019-11-16 15:18:56,845: Unknown error initiating TCP/IP socket to 192.168.0.105:42205 (http://192.168.0.105:46405/): Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 555, in connect
+    self.socket.connect((dest_addr, dest_port))
+  File "/usr/lib/python2.7/socket.py", line 228, in meth
+    return getattr(self._sock,name)(*args)
+error: [Errno 111] Connection refused
+
+[rospy.internal][INFO] 2019-11-16 15:18:56,845: topic[/sound_hsrb] removing connection to http://192.168.0.105:46405/
+[rospy.core][INFO] 2019-11-16 15:18:57,135: signal_shutdown [signal-2]
+[rospy.internal][INFO] 2019-11-16 15:18:57,178: topic[/hsrb/omni_base_controller/follow_joint_trajectory/cancel] removing connection to /hsrb/robot_hardware
+[rospy.internal][INFO] 2019-11-16 15:18:57,179: topic[/hsrb/omni_base_controller/follow_joint_trajectory/goal] removing connection to /hsrb/robot_hardware
+[rospy.internal][INFO] 2019-11-16 15:18:57,179: topic[/hsrb/arm_trajectory_controller/follow_joint_trajectory/goal] removing connection to /hsrb/robot_hardware
+[rospy.internal][INFO] 2019-11-16 15:18:57,179: topic[/hsrb/gripper_controller/grasp/cancel] removing connection to /hsrb/robot_hardware
+[rospy.internal][INFO] 2019-11-16 15:18:57,179: topic[/hsrb/impedance_control/follow_joint_trajectory/goal] removing connection to /hsrb/impedance_control
+[rospy.internal][INFO] 2019-11-16 15:18:57,180: topic[/move_base/move/cancel] removing connection to /move_base
+[rospy.internal][INFO] 2019-11-16 15:18:57,180: topic[/hsrb/head_trajectory_controller/follow_joint_trajectory/cancel] removing connection to /hsrb/robot_hardware
+[rospy.internal][INFO] 2019-11-16 15:18:57,180: topic[/talk_request] removing connection to /text_to_speech
+[rospy.internal][INFO] 2019-11-16 15:18:57,180: topic[/hsrb/gripper_controller/grasp/goal] removing connection to /hsrb/robot_hardware
+[rospy.internal][INFO] 2019-11-16 15:18:57,180: topic[/hsrb/arm_trajectory_controller/follow_joint_trajectory/cancel] removing connection to /hsrb/robot_hardware
+[rospy.internal][INFO] 2019-11-16 15:18:57,181: topic[/hsrb/impedance_control/follow_joint_trajectory/cancel] removing connection to /hsrb/impedance_control
+[rospy.internal][INFO] 2019-11-16 15:18:57,181: topic[/hsrb/gripper_controller/apply_force/cancel] removing connection to /hsrb/robot_hardware
+[rospy.internal][INFO] 2019-11-16 15:18:57,181: topic[/hsrb/gripper_controller/follow_joint_trajectory/cancel] removing connection to /hsrb/robot_hardware
+[rospy.internal][INFO] 2019-11-16 15:18:57,181: topic[/hsrb/gripper_controller/follow_joint_trajectory/goal] removing connection to /hsrb/robot_hardware
+[rospy.internal][INFO] 2019-11-16 15:18:57,181: topic[/hsrb/head_trajectory_controller/follow_joint_trajectory/goal] removing connection to /hsrb/robot_hardware
+[rospy.internal][INFO] 2019-11-16 15:18:57,182: topic[/move_base/move/goal] removing connection to /move_base
+[rospy.internal][INFO] 2019-11-16 15:18:57,182: topic[/hsrb/gripper_controller/apply_force/goal] removing connection to /hsrb/robot_hardware
+[rospy.internal][INFO] 2019-11-16 15:18:57,182: topic[/hsrb/gripper_controller/follow_joint_trajectory/status] removing connection to http://192.168.0.104:43012/
+[rospy.topics][ERROR] 2019-11-16 15:18:57,183: Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/topics.py", line 326, in close
+    c.close()
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 838, in close
+    self.socket.close()
+AttributeError: 'NoneType' object has no attribute 'close'
+
+[rospy.internal][INFO] 2019-11-16 15:18:57,183: topic[/hsrb/omni_base_controller/follow_joint_trajectory/result] removing connection to http://192.168.0.104:43012/
+[rospy.internal][INFO] 2019-11-16 15:18:57,183: topic[/hsrb/gripper_controller/apply_force/feedback] removing connection to http://192.168.0.104:43012/
+[rospy.internal][INFO] 2019-11-16 15:18:57,183: topic[/hsrb/gripper_controller/grasp/result] removing connection to http://192.168.0.104:43012/
+[rospy.internal][INFO] 2019-11-16 15:18:57,184: topic[/hsrb/omni_base_controller/follow_joint_trajectory/feedback] removing connection to http://192.168.0.104:43012/
+[rospy.internal][INFO] 2019-11-16 15:18:57,184: topic[/tf] removing connection to http://192.168.0.104:43012/
+[rospy.internal][INFO] 2019-11-16 15:18:57,184: topic[/tf] removing connection to http://192.168.0.104:41002/
+[rospy.internal][INFO] 2019-11-16 15:18:57,184: topic[/tf] removing connection to http://192.168.0.104:35914/
+[rospy.internal][INFO] 2019-11-16 15:18:57,184: topic[/tf] removing connection to http://192.168.0.104:44376/
+[rospy.internal][INFO] 2019-11-16 15:18:57,184: topic[/tf] removing connection to http://192.168.0.104:38636/
+[rospy.internal][INFO] 2019-11-16 15:18:57,185: topic[/tf] removing connection to http://192.168.0.104:35762/
+[rospy.internal][INFO] 2019-11-16 15:18:57,185: topic[/tf] removing connection to http://192.168.0.104:40611/
+[rospy.internal][INFO] 2019-11-16 15:18:57,185: topic[/hsrb/gripper_controller/apply_force/status] removing connection to http://192.168.0.104:43012/
+[rospy.internal][INFO] 2019-11-16 15:18:57,185: topic[/hsrb/gripper_controller/grasp/feedback] removing connection to http://192.168.0.104:43012/
+[rospy.internal][INFO] 2019-11-16 15:18:57,185: topic[/move_base/move/feedback] removing connection to http://192.168.0.104:43491/
+[rospy.internal][INFO] 2019-11-16 15:18:57,185: topic[/tf_static] removing connection to http://192.168.0.104:42554/
+[rospy.internal][INFO] 2019-11-16 15:18:57,186: topic[/tf_static] removing connection to http://192.168.0.104:32819/
+[rospy.internal][INFO] 2019-11-16 15:18:57,186: topic[/tf_static] removing connection to http://192.168.0.104:41002/
+[rospy.internal][INFO] 2019-11-16 15:18:57,186: topic[/move_base/move/result] removing connection to http://192.168.0.104:43491/
+[rospy.internal][INFO] 2019-11-16 15:18:57,186: topic[/hsrb/arm_trajectory_controller/follow_joint_trajectory/feedback] removing connection to http://192.168.0.104:43012/
+[rospy.internal][INFO] 2019-11-16 15:18:57,186: topic[/hsrb/impedance_control/follow_joint_trajectory/status] removing connection to http://192.168.0.104:44377/
+[rospy.internal][INFO] 2019-11-16 15:18:57,187: topic[/hsrb/impedance_control/follow_joint_trajectory/feedback] removing connection to http://192.168.0.104:44377/
+[rospy.internal][INFO] 2019-11-16 15:18:57,187: topic[/hsrb/head_trajectory_controller/follow_joint_trajectory/status] removing connection to http://192.168.0.104:43012/
+[rospy.internal][INFO] 2019-11-16 15:18:57,187: topic[/move_base/move/status] removing connection to http://192.168.0.104:43491/
+[rospy.internal][INFO] 2019-11-16 15:18:57,187: topic[/hsrb/gripper_controller/apply_force/result] removing connection to http://192.168.0.104:43012/
+[rospy.internal][WARNING] 2019-11-16 15:18:57,188: Unknown error initiating TCP/IP socket to 192.168.0.104:47289 (http://192.168.0.104:43012/): Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 557, in connect
+    self.read_header()
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 650, in read_header
+    self._validate_header(read_ros_handshake_header(sock, self.read_buff, self.protocol.buff_size))
+AttributeError: 'NoneType' object has no attribute 'buff_size'
+
+[rospy.internal][INFO] 2019-11-16 15:18:57,188: topic[/hsrb/head_trajectory_controller/follow_joint_trajectory/feedback] removing connection to http://192.168.0.104:43012/
+[rospy.internal][INFO] 2019-11-16 15:18:57,188: topic[/hsrb/gripper_controller/follow_joint_trajectory/result] removing connection to http://192.168.0.104:43012/
+[rospy.internal][INFO] 2019-11-16 15:18:57,188: topic[/hsrb/omni_base_controller/follow_joint_trajectory/status] removing connection to http://192.168.0.104:43012/
+[rospy.internal][INFO] 2019-11-16 15:18:57,188: topic[/hsrb/arm_trajectory_controller/follow_joint_trajectory/status] removing connection to http://192.168.0.104:43012/
+[rospy.internal][INFO] 2019-11-16 15:18:57,188: topic[/hsrb/gripper_controller/follow_joint_trajectory/feedback] removing connection to http://192.168.0.104:43012/
+[rospy.internal][INFO] 2019-11-16 15:18:57,189: topic[/hsrb/joint_states] removing connection to http://192.168.0.104:43012/
+[rospy.internal][INFO] 2019-11-16 15:18:57,189: topic[/hsrb/gripper_controller/grasp/status] removing connection to http://192.168.0.104:43012/
+[rospy.internal][INFO] 2019-11-16 15:18:57,189: topic[/hsrb/head_trajectory_controller/follow_joint_trajectory/result] removing connection to http://192.168.0.104:43012/
+[rospy.internal][INFO] 2019-11-16 15:18:57,189: topic[/hsrb/arm_trajectory_controller/follow_joint_trajectory/result] removing connection to http://192.168.0.104:43012/
+[rospy.internal][INFO] 2019-11-16 15:18:57,189: topic[/hsrb/impedance_control/follow_joint_trajectory/result] removing connection to http://192.168.0.104:44377/
+[rospy.impl.masterslave][INFO] 2019-11-16 15:18:57,189: signal-2
+[rospy.internal][WARNING] 2019-11-16 15:18:57,190: Unknown error initiating TCP/IP socket to 192.168.0.104:55724 (http://192.168.0.104:41002/): Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 557, in connect
+    self.read_header()
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 650, in read_header
+    self._validate_header(read_ros_handshake_header(sock, self.read_buff, self.protocol.buff_size))
+AttributeError: 'NoneType' object has no attribute 'buff_size'
+
+[rospy.internal][WARNING] 2019-11-16 15:18:57,192: Unknown error initiating TCP/IP socket to 192.168.0.104:47289 (http://192.168.0.104:43012/): Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 558, in connect
+    self.local_endpoint = self.socket.getsockname()
+AttributeError: 'NoneType' object has no attribute 'getsockname'
+
+[rospy.internal][WARNING] 2019-11-16 15:18:57,193: Unknown error initiating TCP/IP socket to 192.168.0.104:47289 (http://192.168.0.104:43012/): Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 557, in connect
+    self.read_header()
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 650, in read_header
+    self._validate_header(read_ros_handshake_header(sock, self.read_buff, self.protocol.buff_size))
+AttributeError: 'NoneType' object has no attribute 'buff_size'
+

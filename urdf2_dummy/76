@@ -1,0 +1,68 @@
+[rospy.client][INFO] 2019-11-16 15:04:24,813: init_node, name[/hsrb_interface_py_9576_1573891464718], pid[9576]
+[xmlrpc][INFO] 2019-11-16 15:04:24,813: XML-RPC server binding to 0.0.0.0:0
+[xmlrpc][INFO] 2019-11-16 15:04:24,814: Started XML-RPC server [http://192.168.0.105:44397/]
+[rospy.init][INFO] 2019-11-16 15:04:24,814: ROS Slave URI: [http://192.168.0.105:44397/]
+[rospy.impl.masterslave][INFO] 2019-11-16 15:04:24,814: _ready: http://192.168.0.105:44397/
+[rospy.registration][INFO] 2019-11-16 15:04:24,814: Registering with master node http://hsrb.local:11311
+[xmlrpc][INFO] 2019-11-16 15:04:24,814: xml rpc node: starting XML-RPC server
+[rospy.init][INFO] 2019-11-16 15:04:24,914: registered with master
+[rospy.rosout][INFO] 2019-11-16 15:04:24,914: initializing /rosout core topic
+[rospy.rosout][INFO] 2019-11-16 15:04:24,927: connected to core topic /rosout
+[rospy.simtime][INFO] 2019-11-16 15:04:24,936: /use_sim_time is not set, will not subscribe to simulated time [/clock] topic
+[rospy.internal][INFO] 2019-11-16 15:04:25,040: topic[/tf_static] adding connection to [http://192.168.0.104:39378/], count 0
+[rospy.internal][INFO] 2019-11-16 15:04:25,040: topic[/tf_static] adding connection to [http://192.168.0.104:36480/], count 0
+[rospy.internal][INFO] 2019-11-16 15:04:25,041: topic[/tf_static] adding connection to [http://192.168.0.104:41749/], count 0
+[rospy.internal][INFO] 2019-11-16 15:04:25,041: topic[/tf] adding connection to [http://192.168.0.104:36480/], count 0
+[rospy.internal][INFO] 2019-11-16 15:04:25,042: topic[/tf] adding connection to [http://192.168.0.104:40317/], count 0
+[rospy.internal][INFO] 2019-11-16 15:04:25,043: topic[/tf] adding connection to [http://192.168.0.104:41836/], count 0
+[rospy.internal][INFO] 2019-11-16 15:04:25,044: topic[/tf] adding connection to [http://192.168.0.104:37901/], count 0
+[rospy.internal][INFO] 2019-11-16 15:04:25,044: topic[/tf] adding connection to [http://192.168.0.104:37087/], count 0
+[rospy.internal][INFO] 2019-11-16 15:04:25,045: topic[/tf] adding connection to [http://192.168.0.104:40639/], count 0
+[rospy.internal][INFO] 2019-11-16 15:04:25,046: topic[/tf] adding connection to [http://192.168.0.104:37834/], count 0
+[rospy.internal][INFO] 2019-11-16 15:04:25,110: topic[/move_base/move/status] adding connection to [http://192.168.0.104:37817/], count 0
+[rospy.internal][INFO] 2019-11-16 15:04:25,140: topic[/move_base/move/result] adding connection to [http://192.168.0.104:37817/], count 0
+[rospy.internal][INFO] 2019-11-16 15:04:25,140: topic[/move_base/move/feedback] adding connection to [http://192.168.0.104:37817/], count 0
+[rospy.core][INFO] 2019-11-16 15:04:38,474: signal_shutdown [signal-2]
+[rospy.registration][WARNING] 2019-11-16 15:04:38,676: unclean shutdown
+Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/impl/registration.py", line 374, in cleanup
+    multi()
+  File "/usr/lib/python2.7/xmlrpclib.py", line 1006, in __call__
+    return MultiCallIterator(self.__server.system.multicall(marshalled_list))
+  File "/usr/lib/python2.7/xmlrpclib.py", line 1243, in __call__
+    return self.__send(self.__name, args)
+  File "/usr/lib/python2.7/xmlrpclib.py", line 1602, in __request
+    verbose=self.__verbose
+  File "/usr/lib/python2.7/xmlrpclib.py", line 1283, in request
+    return self.single_request(host, handler, request_body, verbose)
+  File "/usr/lib/python2.7/xmlrpclib.py", line 1311, in single_request
+    self.send_content(h, request_body)
+  File "/usr/lib/python2.7/xmlrpclib.py", line 1459, in send_content
+    connection.endheaders(request_body)
+  File "/usr/lib/python2.7/httplib.py", line 1069, in endheaders
+    self._send_output(message_body)
+  File "/usr/lib/python2.7/httplib.py", line 907, in _send_output
+    self.send(msg)
+  File "/usr/lib/python2.7/httplib.py", line 869, in send
+    self.connect()
+  File "/usr/lib/python2.7/httplib.py", line 846, in connect
+    self.timeout, self.source_address)
+  File "/usr/lib/python2.7/socket.py", line 557, in create_connection
+    for res in getaddrinfo(host, port, 0, SOCK_STREAM):
+gaierror: [Errno -2] Name or service not known
+
+[rospy.internal][INFO] 2019-11-16 15:04:38,676: topic[/tf_static] removing connection to http://192.168.0.104:39378/
+[rospy.internal][INFO] 2019-11-16 15:04:38,678: topic[/tf_static] removing connection to http://192.168.0.104:36480/
+[rospy.internal][INFO] 2019-11-16 15:04:38,678: topic[/tf_static] removing connection to http://192.168.0.104:41749/
+[rospy.internal][INFO] 2019-11-16 15:04:38,679: topic[/move_base/move/result] removing connection to http://192.168.0.104:37817/
+[rospy.internal][INFO] 2019-11-16 15:04:38,680: topic[/move_base/move/status] removing connection to http://192.168.0.104:37817/
+[rospy.internal][INFO] 2019-11-16 15:04:38,681: topic[/move_base/move/feedback] removing connection to http://192.168.0.104:37817/
+[rospy.internal][INFO] 2019-11-16 15:04:38,681: topic[/tf] removing connection to http://192.168.0.104:36480/
+[rospy.internal][INFO] 2019-11-16 15:04:38,683: topic[/tf] removing connection to http://192.168.0.104:40317/
+[rospy.internal][INFO] 2019-11-16 15:04:38,683: topic[/tf] removing connection to http://192.168.0.104:41836/
+[rospy.internal][INFO] 2019-11-16 15:04:38,684: topic[/tf] removing connection to http://192.168.0.104:37901/
+[rospy.internal][INFO] 2019-11-16 15:04:38,684: topic[/tf] removing connection to http://192.168.0.104:37087/
+[rospy.internal][INFO] 2019-11-16 15:04:38,685: topic[/tf] removing connection to http://192.168.0.104:40639/
+[rospy.internal][INFO] 2019-11-16 15:04:38,685: topic[/tf] removing connection to http://192.168.0.104:37834/
+[rospy.impl.masterslave][INFO] 2019-11-16 15:04:38,686: signal-2
+[rospy.core][INFO] 2019-11-16 15:04:39,141: signal_shutdown [signal-2]
